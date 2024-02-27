@@ -1,13 +1,29 @@
-import Counter from "./component/counter/Counter";
-import Toggle from "./component/toggle/Toggle";
+// import Card from "./component/card/Card";
+// import CardList from "./component/card/CardList";
+
+import MyPhoto from "./component/myPhoto/MyPhoto";
+
+// function App() {
+//   return (
+//     <div>
+//       <CardList>
+//         <Card></Card>
+//         <Card></Card>
+//         <Card></Card>
+//         <Card></Card>
+//         <Card></Card>
+//         <Card></Card>
+//       </CardList>
+//     </div>
+//   );
+// }
 
 function App() {
-    return (
-        <div>
-            <Toggle></Toggle>
-            <Counter></Counter>
-        </div>
-    );
+  return (
+    <div>
+      <MyPhoto></MyPhoto>
+    </div>
+  );
 }
 
 export default App;
